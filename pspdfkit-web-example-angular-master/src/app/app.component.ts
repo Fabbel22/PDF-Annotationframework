@@ -13,7 +13,7 @@ export class AppComponent {
   ngAfterViewInit() {
     PSPDFKit.load({
       baseUrl: location.protocol + "//" + location.host + "/assets/",
-      document: "/assets/example.pdf",
+      document: "example.pdf",
       container: ".pspdfkit-container",
       licenseKey
     }).then(instance => {
