@@ -34,7 +34,7 @@ export class AppComponent implements OnInit, AfterViewInit {
       });
 
       instance.docViewer.on('documentLoaded', this.wvDocumentLoadedHandler)
-    })
+    });
   }
 
   ngOnInit() {
